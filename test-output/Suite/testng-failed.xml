@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.wipro.chcare.ccc.openCart002_OrderHistory">
+        <methods>
+          <include name="addToShoppingCart89and10"/>
+          <include name="endReport"/>
+          <include name="homePageNavigation"/>
+          <include name="checkOutConfirmOrder"/>
+          <include name="initializeReport"/>
+          <include name="orderHistory"/>
+          <include name="loginApp"/>
+          <include name="windup"/>
+          <include name="getResult"/>
+          <include name="openApp"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.wipro.chcare.ccc.openCart002_OrderHistory -->
+      <class name="com.wipro.chcare.ccc.openCart003_ProductComparison">
+        <methods>
+          <include name="openApp"/>
+          <include name="intialize"/>
+          <include name="endReport"/>
+          <include name="initializeReport"/>
+          <include name="productComparison" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.wipro.chcare.ccc.openCart003_ProductComparison -->
+      <class name="com.wipro.chcare.ccc.openCart004_AddingPhonesToTheCart">
+        <methods>
+          <include name="billingDetails" invocation-numbers="0"/>
+          <include name="loginApp"/>
+          <include name="endReport"/>
+          <include name="openApp"/>
+          <include name="intialize"/>
+          <include name="initializeReport"/>
+          <include name="AddingPhonesToTheCart"/>
+          <include name="getResult"/>
+          <include name="homePageNavigation"/>
+        </methods>
+      </class> <!-- com.wipro.chcare.ccc.openCart004_AddingPhonesToTheCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

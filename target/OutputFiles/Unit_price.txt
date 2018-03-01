@@ -1,0 +1,3 @@
+The Unit price is £123.95
+The Unit price is 141.31€
+The Unit price is $199.99
